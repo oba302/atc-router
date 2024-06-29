@@ -21,7 +21,7 @@ def atc_router_dependencies(cargo_home_isolated = True):
     )
 
     rust_repository_set(
-        name = "rust_linux_arm64_linux_tuple",
+        name = "rust_linux_cross_linux_tuple",
         edition = "2021",
         exec_triple = "x86_64-unknown-linux-gnu",
         extra_target_triples = ["aarch64-unknown-linux-gnu", "ppc64le-unknown-linux-gnu"],
